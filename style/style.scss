@@ -96,7 +96,6 @@ body{
     border-radius: 15px;
     font-size: 3rem;
     text-decoration: none;
-
 }
 
 .click-me:hover{
@@ -104,14 +103,31 @@ body{
     transition:all 1.0s;
     background-color: red;
     box-shadow:10px 5px 5px black;
+    //thoughtbot.com mozilla devevloper
 }
 
 
 
-.tilt-parent{
+.rotate-parent{
     width: 20rem;
     height: 20rem;
     margin: 0 auto;
     display: flex;
     align-items: center; 
 }
+
+.rotate{
+    background-color: orange;
+    height: 10rem;
+    width:10rem;
+    font-size: 3rem;
+    transform: rotate(1080deg);
+}
+
+.rotate:hover{
+    transform:  rotate(1080deg) scale(1.3);
+    transition: all 1.0s;
+    //thoughtbot.com mozilla devevloper
+}
+
+
