@@ -1,0 +1,30 @@
+.click-me-parent{
+    width: 40rem;
+    height: 60rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+.click-me{
+    background-color: rgb(73, 73, 197);
+    width:20rem;
+    border-radius: 15px;
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: center;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+.click-me:hover{
+    transform: scale(1.3);
+    transition:all 1.0s;
+    background-color:rgb(117, 117, 209);
+    box-shadow:5px 5px 5px gray;
+    //thoughtbot.com mozilla devevloper
+}
+

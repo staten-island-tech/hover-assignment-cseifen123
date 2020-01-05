@@ -1,0 +1,35 @@
+
+.container{
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.horse{
+    height: 30rem;
+    border-radius:15px;
+}
+
+.overlay{
+    position:absolute;
+    background-color: rgb(231, 169, 87);
+    height:30rem;
+    width:45rem;
+    opacity:0;
+    transition: all 2.0s;
+    border-radius:15px;
+}
+
+.text{
+    position: absolute;
+    top:40%;
+    left:40%;
+    color: white;
+    text-align:center;
+}
+
+.container .overlay:hover{
+    opacity:1;
+}

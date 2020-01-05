@@ -1,0 +1,26 @@
+
+
+.sunset-parent{
+    // width: 30rem;
+    // height: 30rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+
+.sunset{
+    height: 30rem;
+    transition: all 1.0s;
+    filter: grayscale(100);
+    border-radius: 15px; 
+}
+
+.sunset:hover{
+    transform: scale(1.3);
+    filter: grayscale(0);
+    transform: rotate(1080deg);
+    //shadow;
+}
+

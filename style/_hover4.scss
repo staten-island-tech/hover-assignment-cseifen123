@@ -1,0 +1,17 @@
+.rotate-parent{
+    width: 30rem;
+    height: 30rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.rotate{
+    transition: all 5.0s;
+}
+
+.rotate:hover{
+    transform: rotate(1080deg);
+}
+
