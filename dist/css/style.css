@@ -211,4 +211,88 @@ html {
   -webkit-transform: skewX(-40deg);
           transform: skewX(-40deg);
 }
+
+.animation-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30rem;
+  height: 30rem;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.animation {
+  width: 20rem;
+  height: 20rem;
+  background-color: red;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  position: relative;
+}
+
+@-webkit-keyframes example {
+  0% {
+    background: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: red;
+    left: 5rem;
+    top: 0rem;
+  }
+  50% {
+    background: yellow;
+    left: 0rem;
+    top: -5rem;
+  }
+  75% {
+    background: blue;
+    right: 5rem;
+    top: 0rem;
+  }
+  100% {
+    background: green;
+    left: 0rem;
+    top: 5rem;
+  }
+}
+
+@keyframes example {
+  0% {
+    background: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: red;
+    left: 5rem;
+    top: 0rem;
+  }
+  50% {
+    background: yellow;
+    left: 0rem;
+    top: -5rem;
+  }
+  75% {
+    background: blue;
+    right: 5rem;
+    top: 0rem;
+  }
+  100% {
+    background: green;
+    left: 0rem;
+    top: 5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
