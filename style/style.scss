@@ -32,8 +32,8 @@ html{
 
 .animation-parent{
     display: flex;
-    width: 30rem;
-    height:30rem;
+    width: 40rem;
+    height:40rem;
     margin:0 auto;
     justify-content: center;
     align-items: center;
@@ -41,21 +41,25 @@ html{
 
 .animation{
     width: 20rem;
-    height: 20rem; 
     background-color: red;
     animation-name: example;
     animation-duration: 4s;
     animation-direction: alternate;
     position: relative;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    text-align:center;
+    color:white; 
+    font-size: 3rem;
+    border-radius: 15px;
 }
 
 @keyframes example {
-    0% {background: red; left: 0px; top: 0px;}
-    25%   {background: red; left: 5rem; top: 0rem;}
-    50%  {background: yellow; left: 0rem; top: -5rem;}
-    75%  {background: blue; right: 5rem; top: 0rem;}
-    100%  {background: green; left: 0rem; top: 5rem;}
-
+    0% {background: red; left: 0rem; top: 0px;}
+    33%   {background: yellow; left: -30rem; top: 0rem;}
+    67%  {background: pink; left: 40rem; top: 0rem;}
+    100%  {background: red; left: -.1rem; top: 0rem;}
 }
+
 
     
