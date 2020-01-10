@@ -249,15 +249,15 @@ html {
   0% {
     background: red;
     left: 0rem;
-    top: 0px;
+    top: 0rem;
   }
   33% {
-    background: yellow;
+    background: purple;
     left: -30rem;
     top: 0rem;
   }
   67% {
-    background: pink;
+    background: blue;
     left: 40rem;
     top: 0rem;
   }
@@ -272,15 +272,15 @@ html {
   0% {
     background: red;
     left: 0rem;
-    top: 0px;
+    top: 0rem;
   }
   33% {
-    background: yellow;
+    background: purple;
     left: -30rem;
     top: 0rem;
   }
   67% {
-    background: pink;
+    background: blue;
     left: 40rem;
     top: 0rem;
   }

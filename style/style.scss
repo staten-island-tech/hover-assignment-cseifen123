@@ -55,9 +55,9 @@ html{
 }
 
 @keyframes example {
-    0% {background: red; left: 0rem; top: 0px;}
-    33%   {background: yellow; left: -30rem; top: 0rem;}
-    67%  {background: pink; left: 40rem; top: 0rem;}
+    0% {background: red; left: 0rem; top: 0rem;}
+    33%   {background: purple; left: -30rem; top: 0rem;}
+    67%  {background: blue; left: 40rem; top: 0rem;}
     100%  {background: red; left: -.1rem; top: 0rem;}
 }
 
